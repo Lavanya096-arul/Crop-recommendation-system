@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
 
 
-data = pd.read_csv("Crop.csv")
+data = pd.read_csv("crop.csv")
 
 X = data[['N','P','K','temperature','humidity','ph','rainfall']]
 y = data['label']
