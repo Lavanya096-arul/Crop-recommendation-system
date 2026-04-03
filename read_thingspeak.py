@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 import warnings 
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv("Crop.csv")
+data = pd.read_csv("crop.csv")
 
 X = data[['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall']]
 y = data['label']
